@@ -1,8 +1,8 @@
 block('page')(
 
-    def()(function() {
+    def().match(function() { return !this._pageInit; })(function() {
         var ctx = this.ctx;
-        applyCtx([
+        return applyCtx([
             ctx.doctype || '<!DOCTYPE html>',
             {
                 tag : 'html',
@@ -22,7 +22,7 @@ block('page')(
                     ctx
                 ]
             }
-        ]);
+        ], { _pageInit : true });
     }),
 
     tag()('body'),
