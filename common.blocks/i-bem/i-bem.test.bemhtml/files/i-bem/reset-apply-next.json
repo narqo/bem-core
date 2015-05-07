@@ -1,6 +1,6 @@
 {
   "block": "b1",
-  "content": [{
+  "content": {
     "block": "b1"
-  }]
+  }
 }
