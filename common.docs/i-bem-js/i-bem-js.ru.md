@@ -143,7 +143,7 @@ Node.js).
 
 Если не планируется использование других технологий БЭМ-платформы, достаточно поместить код библиотеки `bem-core` в существующий проект.
 
-[ym]: https://github.com/ym/modules
+[ym]: https://github.com/ymaps/modules
 
 [bem-tools]: https://ru.bem.info/tools/bem/
 
